@@ -4,16 +4,16 @@ metadata:
   name: cleanup
 spec:
   steps:
-    - name: cleanup
+    - name: cleanup-step
       image: alpine
       script: |
-        echo "Cleaning up workspace"
+        echo "Cleaning workspace"
 
 ---
 apiVersion: tekton.dev/v1beta1
 kind: Task
 metadata:
-  name: nose-test
+  name: nose
 spec:
   steps:
     - name: run-tests
