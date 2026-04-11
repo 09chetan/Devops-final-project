@@ -1,57 +1,26 @@
-# User Stories - Customer Accounts Microservice
+# User Stories
 
-## User Story Template
-As a <role>  
-I need <function>  
-So that <benefit>  
-
----
-
-## User Stories
-
-### 1. Create Account
-As a customer  
+## User Story 1
+As a user  
 I need to create an account  
-So that I can store my personal details in the system  
+So that I can manage my profile  
 
----
+## User Story 2
+As a user  
+I need to list all accounts  
+So that I can view existing users  
 
-### 2. Read Account
-As a customer  
-I need to view my account details  
-So that I can check my stored information  
+## User Story 3
+As a user  
+I need to read account details  
+So that I can see specific user information  
 
----
+## User Story 4
+As a user  
+I need to update account information  
+So that I can modify user details  
 
-### 3. Update Account
-As a customer  
-I need to update my account information  
-So that my data remains accurate and up-to-date  
-
----
-
-### 4. Delete Account
-As a customer  
-I need to delete my account  
-So that I can remove my data from the system  
-
----
-
-### 5. List All Accounts
-As an admin  
-I need to view all customer accounts  
-So that I can manage users in the system  
-
----
-
-### 6. Validate Account Data (Enhancement)
-As a system  
-I need to validate account input data  
-So that invalid or incomplete data is not stored  
-
----
-
-### 7. Logging and Monitoring (Technical Debt)
-As a developer  
-I need proper logging in the service  
-So that I can debug issues and monitor system behavior  
+## User Story 5
+As a user  
+I need to delete an account  
+So that I can remove users from the system  
